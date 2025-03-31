@@ -19,7 +19,7 @@ export default function Home() {
       {/* Centered Home Image */}
       <div className="absolute inset-0 flex items-center justify-center">
         <Image
-          src="/home.jpg"
+          src="/img.png"
           alt="Home"
           width={650}
           height={650}
