@@ -33,8 +33,8 @@ export default function Page() {
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-          quibusdam aperiam voluptatum.
+        Sign in to access AI-driven mock interviews, real-time feedback, and personalized coaching 
+        to boost your confidence and land your dream job.
         </p>
       </div>
     </section>
@@ -67,8 +67,8 @@ export default function Page() {
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-            quibusdam aperiam voluptatum.
+          Sign in to access AI-driven mock interviews, real-time feedback, and personalized coaching 
+          to boost your confidence and land your dream job.
           </p>
         </div>
 
