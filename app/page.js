@@ -21,8 +21,8 @@ export default function Home() {
         <Image
           src="/home.jpg"
           alt="Home"
-          width={850}
-          height={950}
+          width={650}
+          height={650}
           objectFit="contain"
           className="shadow-lg rounded-lg"
         />
