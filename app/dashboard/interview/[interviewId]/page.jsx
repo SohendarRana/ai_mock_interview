@@ -6,6 +6,7 @@ import { eq } from 'drizzle-orm'
 import Webcam from 'react-webcam'
 import { Lightbulb, WebcamIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 function Interview({ params }) {
     const [interviewData, setInterviewData] = useState(null);
@@ -61,7 +62,9 @@ function Interview({ params }) {
                         </>
                     )}
                     {/* Start Button Below Enable Web Cam Button */}
-                    <Button className='w-[300px] mt-5'>Start</Button> {/* Aligned to the same column */}
+                    <Link href={'/dashboard/interview/'+params.interviewId+'/start'}>
+                    <Button className='w-[300px] mt-5'>Start Interview</Button>
+                    </Link>
                 </div>
             </div>
         </div>

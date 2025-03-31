@@ -49,7 +49,7 @@ function AddNewInterview() {
     const resp=await db.insert(ai_mock_interview)
     .values({ 
       mockId:uuidv4(),
-      jsonMockresp:MockJsonResp,
+      jsonMockResp:MockJsonResp,
       jobPosition:jobPosition,
       jobDesc:jobDesc,
       jobExperience:jobExperience,
@@ -58,7 +58,7 @@ function AddNewInterview() {
     }).returning({mockId:ai_mock_interview.mockId});
     console.log("Inserted ID:", resp)
     if(resp){
-      setOpenDailog(falase);
+      setOpenDailog(false);
       router.push('/dashboard/interview/'+resp[0]?.mockId)
     }
   }
